@@ -1,0 +1,196 @@
+  #title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.body {
+  font-family: 'Montserrat';
+}
+
+.slogan {
+  font-family: 'Montserrat';
+  font-size: 3.4rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.imageperro{
+
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+/* iconos */
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.circulorojo{
+
+  font-size: 3.2rem;
+  color: #ef8172;
+}
+
+.circulorojo:hover{
+  color: #ff4c68;
+}
+
+.primericono{
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.negrilla-title{
+  font-family: "Montserrat";
+  font-weight: 600;
+  padding: 1rem 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.gray-title{
+  font-family: "Montserrat";
+  color: #8f8f8f;
+  padding: 0 25%;
+}
+
+/* Seccion Testimonios */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-text{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing_pad {
+  padding: 3% 2%;
+}
+
+.pricing-price{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+
+  .imageperro {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.calltophrase{
+  font-family: Montserrat;
+  font-weight: 600;
+  color: white;
+  padding: 5% 20%;
+  font-size: 2.5rem;
+}
+
+.download-bo{
+  margin: 0 3% 5% 0;
+}
+
+/* Footer */
+#footer {
+  background-color: white;
+  text-align: center;
+  margin: 8% 0 4%;
+}
+
+.iconredes{
+  margin: 0 0.5rem;
+}
